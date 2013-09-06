@@ -1,0 +1,19 @@
+name: Betatest
+main: io.github.Aeratoth.betatest.Betatest
+version: 0.01
+commands:
+    basic:
+      description: This is a demo command.
+      usage: /basic [player] This will do something to [player]
+      permission: Betatest.basic
+      permission-message: You don't have permission to do that!
+    WhatAmI:
+      description: Show's what whether you are using the console or are in-game.
+      usage: Type /WhatAmI [player] to show what type of user you are.
+      permission: Betatest.whatami
+      permission-message: You don't have permission to do that!
+    isonline:
+      description: Show whether a player is online or not.
+      usage: Type /isonline (player)
+      permission: Betatest.isonline
+      permission-message: You don't have permission to do that!
